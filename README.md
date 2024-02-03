@@ -2,7 +2,7 @@
 # Ministry of Youth 3D-LandingPage Website
 
 
-This is a project start at 2021/8 when i was apprenticed in Saned initiative, it's a simple 3d website using three.js
+This is a project started when i was apprenticed in Saned initiative, it's a simple 3d website using three.js
 
 ## Setup
 
