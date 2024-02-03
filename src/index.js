@@ -1,6 +1,7 @@
 import * as THREE from 'three/build/three.module';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
 // import { TWEEN } from 'three/examples/jsm/libs/tween.module.min.js'
+import Stats from "three/examples/jsm/libs/stats.module"
 import TWEEN from '@tweenjs/tween.js'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 

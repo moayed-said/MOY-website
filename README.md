@@ -1,4 +1,4 @@
-![ Ministry of Youth Logo](/static/assets/166094380_102276148634142_7257798866871522282_n.png)
+![ Ministry of Youth Logo](/static/assets/logo.png)
 # Ministry of Youth 3D-LandingPage Website
 
 
