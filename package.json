@@ -1,0 +1,23 @@
+{
+  "name": "Ministry of Youth Libya Website",
+  "version": "1.0.0",
+  "description": "landing page prototype",
+  "main": "index.js",
+  "module": "dist/module.js",
+  "dependencies": {
+    "@tweenjs/tween.js": "^23.1.1",
+    "three": "^0.132.2"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.11.0",
+    "parcel": "^2.11.0",
+    "parcel-reporter-static-files-copy": "^1.5.3",
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build:WebpackV4": "webpack -p --hot true --output-library-target amd"
+  },
+  "author": "Moayed said",
+  "license": "ISC"
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.canvas{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url(static/assets/background-min.jpg) ;
+    background-size: cover;
+    animation: moveBG 70s linear infinite ;
+}
+@keyframes moveBG {
+    0%{background-position: 0% 100% ;}
+    50%{background-position: 100% 100% ;}
+    50%{background-position: 100% 100% ;}
+    100%{background-position: 0% 100% ;}
+}
+.connect{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    text-align: center;
+}
+.loading-svg{
+    position:fixed;
+    z-index: 1000;
+    height: 100vh;
+    width: 100vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-items: center;
+}
+.rotate-container{
+    width: 100%;
+    height: 100%;
+}
+.connect svg{
+    width: 30px;
+    height:30px;
+}
+.connect svg:hover{
+    width: 32px;
+    height:32px;
+}
+a:nth-child(1){
+    margin-right: 10px;
+}
+a:nth-child(2){
+    margin-right: 110px;
+}
+span{
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    display: block;
+    font-size: 18px;
+    font-family:Tajawal, Arial, sans-serif;
+    color: #d69e03;
+    
+}
+.right-button{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: calc(100% - 55px);
+    transform: rotateZ(-45deg);
+    border-right: 4px solid #d69e03;
+    border-bottom: 4px solid #d69e03;
+}
+.left-button{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    right: calc(100% - 55px);
+    transform: rotateZ(45deg);
+    border-left: 4px solid #d69e03;
+    border-bottom: 4px solid #d69e03;
+}
+
+.left-button:hover , .right-button:hover {
+    width: 45px;
+    height: 45px;
+}
+
+.hidden{
+    display: none;
+}
+
+@media screen and (max-width: 1024px)  {
+    .connect{
+        width: 100vh;
+    }
+    .right-button{
+        left: calc(100vh - 55px);
+    }
+}
+
+
+    
