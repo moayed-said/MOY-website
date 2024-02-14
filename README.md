@@ -4,9 +4,7 @@
 
 This is a project started when i was apprenticed in Saned initiative, it's a simple 3d website using three.js
 
-[link](https://moayed-said.github.io%2FMOY-website%2F)
-
-<a href="https://moayed-said.github.io/MOY-website/">Demo</a>
+[Demo](https://moayed-said.github.io%2FMOY-website%2F)
 
 ## Setup
 
